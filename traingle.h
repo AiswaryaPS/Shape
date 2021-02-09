@@ -4,12 +4,12 @@
 #include "polygon.h"
 
 class Triangle : public Polygon {
-  int  m_a;
-  int  m_b;
-  int  m_c;
+  int  n_x;
+  int  n_y;
+  int  n_z;
 
 public:
-  Triangle(int x,int y,int z);
+  Triangle(int a,int b,int c);
   double area() ;
   double circumference();
 };
