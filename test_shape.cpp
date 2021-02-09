@@ -7,20 +7,20 @@
 namespace{
 TEST(Circle,Area)
 {
-    Circle C(50);
-    EXPECT_EQ(7850,C.area());
-    EXPECT_EQ(314,C.circumference());
+    Circle C(40);
+    EXPECT_EQ(5024,C.area());
+    EXPECT_EQ(251.2,C.circumference());
 }
 TEST(Triangle,Area)
 {
-    Triangle T(3,4,5);
-    EXPECT_EQ(6,T.area());
-    EXPECT_EQ(12,T.circumference());
+    Triangle T(2,6,5);
+    EXPECT_EQ(30,T.area());
+    EXPECT_EQ(13,T.circumference());
 }
 TEST(Rectangle,Area)
 {
-    Rectangle R(6,5);
-    EXPECT_EQ(30,R.area());
-    EXPECT_EQ(22,R.circumference());
+    Rectangle R(4,9);
+    EXPECT_EQ(36,R.area());
+    EXPECT_EQ(26,R.circumference());
 }
 }
